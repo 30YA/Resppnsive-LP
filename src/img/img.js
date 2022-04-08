@@ -8,6 +8,7 @@ import "./42.png";
 import "./5.png";
 import "./61.png";
 import "./62.png";
+import "./8.png";
 import "./p1.png";
 import "./p2.png";
 import "./p3.png";
