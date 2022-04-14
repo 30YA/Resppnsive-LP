@@ -4,7 +4,7 @@
 
 /* ===== VARIABLES CSS ===== */
 :root {
-  --header-height: 3rem;
+  --header-height: 4rem;
 
   /* ===== Colors ===== */
   --first-color: #6a00ff;
@@ -174,7 +174,7 @@ body {
   margin-left: var(--mb-3);
 }
 .change__theme{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -252,8 +252,9 @@ body.dark-theme{
   height: 100px;
   background-color: red;
 }
-/* .active-link{
+.active-link{
   position: relative;
+  color: var(--first-color);
 }
 .active-link::before{
   content: '';
@@ -262,9 +263,10 @@ body.dark-theme{
   left: 45%;
   width: 5px;
   height: 5px;
-  background-color: var(--title-color);
+  background-color: var(--first-color);
   border-radius: 50%;
-} */
+}
+
 header.scroll-header {
   transition: 0.4s;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
