@@ -1,5 +1,8 @@
 "use strict";
 import "./style/style.css";
+import "./font/font-face.css";
+// import 'boxicons';
+// import "../node_modules/boxicons/css/boxicons.css";
 import "../node_modules/boxicons/dist/boxicons.js";
 import "./img/img.js";
 import ScrollReveal from "../node_modules/scrollreveal/dist/scrollreveal.js";

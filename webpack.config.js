@@ -87,7 +87,7 @@ module.exports = (env, { mode }) => {
   if (!isDevelopment) {
     config.plugins.push(
       new MiniCssExtractPlugin({
-        filename: "styles/[name].[contenthash].css",
+        filename: "styles/style.[contenthash].css",
       })
     );
     config.module.rules.push({

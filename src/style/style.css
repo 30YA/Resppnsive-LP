@@ -1,7 +1,3 @@
-/* ===== FONTS ===== */
-@import "./../font/font-face.css";
-@import "../../node_modules/boxicons/css/boxicons.css";
-
 /* ===== VARIABLES CSS ===== */
 :root {
   --header-height: 4rem;

@@ -1,12 +1,6 @@
 import "./11.png";
-import "./12.png";
 import "./21.png";
-import "./22.png";
-import "./3.png";
-import "./41.png";
-import "./42.png";
 import "./5.png";
-import "./61.png";
 import "./62.png";
 import "./8.png";
 import "./p1.png";
