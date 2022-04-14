@@ -173,13 +173,36 @@ body {
 .nav__item {
   margin-left: var(--mb-3);
 }
+.change__theme{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--title-color);
+}
+/*========== variable Dark Theme =============== */
+body.dark-theme{
+  --first-color-send: #131313;
+  --title-color: #f3f1f1;
+  --text-color: #d1c7c8;
+  /* --text-color-light: #8f8a8a; */
+  --body-color: #2f2f2f;
+  --container-color: #222222;
+}
+/* ============================================= */
 @media screen and (max-width: 768px) {
+  .change__theme{
+    position: absolute;
+    top: 2.2rem;
+    right: 1.5rem;
+  }
   .nav__toggle{
     display: block;
   }
   .nav__menu {
     position: fixed;
-    top: -250px;
+    top: -500px;
     left: 0;
     right: 0;
     width: 90%;
@@ -263,7 +286,7 @@ header.scroll-header {
   transition: 0.3s;
 }
 .scroll__icone {
-  color: var(--body-color);
+  color: #fff;
   font-size: 1.5rem;
 }
 .scrollTop.show-scroll-Btn {
@@ -306,7 +329,7 @@ header.scroll-header {
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--container-color);
+  color: #fff;
   padding: var(--mb-2) var(--mb-2);
   border-radius: var(--mb-1);
   font-weight: var(--font-Medium);
@@ -450,7 +473,7 @@ header.scroll-header {
   justify-content: center;
 }
 .accessory__button i {
-  color: var(--body-color);
+  color: #fff;
 }
 .accessories__content img {
   width: 120px;
@@ -480,7 +503,7 @@ header.scroll-header {
   border-radius: 30px;
 }
 .send__content {
-  color: var(--body-color);
+  color: #fff;
   font-weight: var(--font-light);
   width: 40%;
   display: flex;
@@ -490,15 +513,15 @@ header.scroll-header {
   /* background-color: red; */
 }
 .send__content h2{
-  color: var(--body-color);
   font-weight:var(--font-Medium);
+  color: #fff;
 }
 .send__content p{
   margin-bottom: var(--mb-3);
 }
 .send__content form{
   width: 100%;
-  background-color: var(--body-color);
+  background-color: #fff;
   border-radius: .7rem;
 }
 .send__direction{
