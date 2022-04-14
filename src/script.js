@@ -67,10 +67,10 @@ themeBTN.addEventListener("click", () => {
 
 // ============ Scroll Reveal =================
 const sr = ScrollReveal({
-  distance: "50px",
+  distance: "30px",
   duration: 1800,
   reset: true,
-  delay: 0,
+  // delay: 0,
 });
 
 sr.reveal(
@@ -86,13 +86,13 @@ sr.reveal(
 
 sr.reveal(`.share__img, .send__content`, {
   origin: "left",
-  rotate: { x: 40, z: 50 },
-  delay: 400,
+  // rotate: { x: 40, z: 50 },
+  // delay: 400,
 });
 
 sr.reveal(`.share__data, .send__img`, {
   origin: "right",
-  scale: 0.1,
+  // scale: 0.1,
 });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
